@@ -5,5 +5,11 @@
       x (int): the number to be squared
   Returns:
       x (int): the square of x
-*/
-void main() {}
+*/import 'dart:math';
+double func(int x){
+ return sqrt(x);
+
+}
+void main() {print(func(15));
+
+}
