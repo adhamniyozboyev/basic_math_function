@@ -6,10 +6,10 @@
   Returns:
       x (int): the square of x
 */import 'dart:math';
-double func(int x){
- return sqrt(x);
+ num func(double s){
+ return pow(s, 2);
 
 }
-void main() {print(func(15));
+void main() {print(func(14));
 
 }
