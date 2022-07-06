@@ -6,5 +6,9 @@
   Returns:test
       side (double): the side of the square
 */
+double func(t){
+  double s=t*2/4;
+  return s;
+}
 
-void main() {}
+void main() {print(func(36));}
