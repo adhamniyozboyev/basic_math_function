@@ -11,4 +11,4 @@ double func(t){
   return s;
 }
 
-void main() {print(func(36));}
+void main() {print(func(24));}
